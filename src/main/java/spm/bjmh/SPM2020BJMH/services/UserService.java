@@ -13,7 +13,7 @@ public interface UserService {
     UserDto updateProfile(UserDto userDto);
 
     /** Update password **/
-    UserDto changePassword(UserDto userDto);
+    UserDto changePassword(UserDto userDto, String newPassword);
 
 
 }

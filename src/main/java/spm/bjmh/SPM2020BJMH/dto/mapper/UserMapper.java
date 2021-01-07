@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 
-public class UserMap {
+public class UserMapper {
 
     public static UserDto toUserDto(User user) {
         return new UserDto()
